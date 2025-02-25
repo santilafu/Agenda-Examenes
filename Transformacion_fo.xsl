@@ -10,6 +10,32 @@
             <fo:page-sequence master-reference="A4">
                 <fo:flow flow-name="xsl-region-body">
                     <fo:block font-size="14pt" font-weight="bold" text-align="center">Agenda de Exámenes</fo:block>
+                    
+                    <!-- Tabla de Calendario -->
+                    <fo:table border="1pt solid black">
+                        <fo:table-column column-width="14%"/>
+                        <fo:table-column column-width="14%"/>
+                        <fo:table-column column-width="14%"/>
+                        <fo:table-column column-width="14%"/>
+                        <fo:table-column column-width="14%"/>
+                        <fo:table-column column-width="14%"/>
+                        <fo:table-column column-width="14%"/>
+                        <fo:table-body>
+                            <fo:table-row>
+                                <fo:table-cell><fo:block>Lunes</fo:block></fo:table-cell>
+                                <fo:table-cell><fo:block>Martes</fo:block></fo:table-cell>
+                                <fo:table-cell><fo:block>Miércoles</fo:block></fo:table-cell>
+                                <fo:table-cell><fo:block>Jueves</fo:block></fo:table-cell>
+                                <fo:table-cell><fo:block>Viernes</fo:block></fo:table-cell>
+                                <fo:table-cell><fo:block>Sábado</fo:block></fo:table-cell>
+                                <fo:table-cell><fo:block>Domingo</fo:block></fo:table-cell>
+                            </fo:table-row>
+                        </fo:table-body>
+                    </fo:table>
+                    
+                    <fo:block font-size="14pt" font-weight="bold" text-align="center" margin-top="10pt">Lista de Exámenes</fo:block>
+                    
+                    <!-- Tabla de Exámenes -->
                     <fo:table border="1pt solid black">
                         <fo:table-column column-width="33%"/>
                         <fo:table-column column-width="33%"/>

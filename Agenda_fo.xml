@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transformacion_fo.xsl"?>
+<agenda_examenes>
+    <calendario>
+        <semana>
+            <dia>Lunes</dia>
+            <dia>Martes</dia>
+            <dia>Miercoles</dia>
+            <dia>Jueves</dia>
+            <dia>Viernes</dia>
+            <dia>Sabado</dia>
+            <dia>Domingo</dia>
+        </semana>
+        <semana>
+            <dia></dia>
+            <dia></dia>
+            <dia></dia>
+            <dia></dia>
+            <dia></dia>
+            <dia>1</dia>
+            <dia>2</dia>
+        </semana>
+        <semana>
+            <dia>3</dia>
+            <dia>4</dia>
+            <dia>5</dia>
+            <dia>6</dia>
+            <dia>7</dia>
+            <dia>8</dia>
+            <dia>9</dia>
+        </semana>
+        <semana>
+            <dia>10</dia>
+            <dia>11</dia>
+            <dia>12</dia>
+            <dia>13</dia>
+            <dia>14</dia>
+            <dia>15</dia>
+            <dia>16</dia>
+        </semana>
+        <semana>
+            <dia>17</dia>
+            <dia>18</dia>
+            <dia>19</dia>
+            <dia>20</dia>
+            <dia>21</dia>
+            <dia>22</dia>
+            <dia>23</dia>
+        </semana>
+        <semana>
+            <dia>24</dia>
+            <dia>25</dia>
+            <dia>26</dia>
+            <dia>27</dia>
+            <dia>28</dia>
+            <dia>"-"</dia>
+            <dia>"-"</dia>
+        </semana>
+    </calendario>
+    <examenes>
+        <examen>
+            <curso>Primero</curso>
+            <asignatura>Sistemas</asignatura>
+            <fecha>3 Febrero 2025</fecha>
+        </examen>
+         <examen>
+            <curso>Primero</curso>
+            <asignatura>Ingles</asignatura>
+            <fecha>3 Febrero 2025</fecha>
+        </examen>
+         <examen>
+            <curso>Primero</curso>
+            <asignatura>Lenguaje de Marcas</asignatura>
+            <fecha>4 Febrero 2025</fecha>
+        </examen>
+         <examen>
+            <curso>Segundo</curso>
+            <asignatura>Ingles</asignatura>
+            <fecha>6 Febrero 2025</fecha>
+        </examen>
+         <examen>
+            <curso>Segundo</curso>
+            <asignatura>Base de Datos</asignatura>
+            <fecha>10 Febrero 2025</fecha>
+        </examen>
+         <examen>
+            <curso>Segundo</curso>
+            <asignatura>FOL</asignatura>
+            <fecha>17 Febrero 2025</fecha>
+        </examen>
+        <examen>
+            <curso>Primero</curso>
+            <asignatura>Base de Datos</asignatura>
+            <fecha>28 Febrero 2025</fecha>
+        </examen>
+         <examen>
+            <curso>Primero</curso>
+            <asignatura>Programacion</asignatura>
+            <fecha>28 Febrero 2025</fecha>
+        </examen>
+    </examenes>
+
+</agenda_examenes>
